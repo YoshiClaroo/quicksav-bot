@@ -1,7 +1,7 @@
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-SMARTLINK = os.getenv("SMARTLINK")
+token = os.getenv("BOT_TOKEN")
+smartlink = os.getenv("SMARTLINK")
 logs = 2390049  # logs channel id, if none set to None
 max_filesize = 50000000  # bytes
 output_folder="/tmp/yt-dlp-telegram"
